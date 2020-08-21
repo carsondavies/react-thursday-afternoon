@@ -49,7 +49,7 @@ class Profile extends Component {
 
         <div className='navigation-bar'>
           <button className='previous-button' onClick={this.displayPreviousPerson}> {'<'} Previous </button>
-          <button className='next-button' onClick={this.displayNextPerson}>Next > </button>
+          <button className='next-button' onClick={this.displayNextPerson}>Next {'>'} </button>
         </div>
       </div >
     )
