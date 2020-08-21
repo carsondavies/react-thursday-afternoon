@@ -1,38 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  width: 100vw;
+  height: 10vh;
+  background-color: dodgerblue;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.background-color{
+  width: 100vw;
+  height: 90vh;
+  background-color: black;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  padding: 75px;
+}
+
+.white-container{
+  width: 70%;
+  height: 80%;
+  background-color: white;
+  padding: 50px;
+  display: flex;
+  justify-content: left;
+}
+
+.navigation-bar{
+  width: 70%;
+  height: 10%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.previous-button{
+  font-size: 20px;
+  font-weight: bold;
+  border: 0px;
   color: white;
+  background-color: black;
+  height: 40px;
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+.next-button{
+  font-size: 20px;
+  font-weight: bold;
+  border: 0px;
+  color: white;
+  background-color: black;
+  height: 40px;
+  width: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.index-position {
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  top: 200px;
+  right: 325px;
 }
+
+
+.profile-name{
+  color: black;
+}
+
+.complete-profile{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  max-width: 50%;
+}
+
+/* .complete-profile >p {
+  margin-left: 25px;
+  font-size: 25px;
+  display: flex;
+  justify-content: left;
+  margin: 7px;
+} */
+
+.where-from {
+  margin-left: 25px;
+  font-size: 25px;
+  display: flex;
+  justify-content: left;
+  margin: 7px;
+}
+
+.job-title {
+  margin-left: 25px;
+  font-size: 25px;
+  display: flex;
+  justify-content: left;
+  margin: 7px;
+}
+
+.employer {
+  margin-left: 25px;
+  font-size: 25px;
+  display: flex;
+  justify-content: left;
+  margin: 7px;
+}
+
+.profile-name{
+  font-size: 50px;
+  border-bottom: 3px solid dodgerblue;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: left;
+}
+
+.favorite-movies {
+  /* position: relative;
+  margin-left: 25px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-start;
+  margin: 7px;
+  box-sizing: border-box; */
+  position: absolute;
+  top: 500px;
+  left: 350px;
+  font-size: 25px;
+  list-style-type: lower-alpha;
+}
+
+.movie-one {
+  flex-wrap: wrap;
+  position: relative;
+  left: 30%;
+}
+
+.movie-two {
+  flex-wrap: wrap;
+  position: relative;
+  left: 30%;
+}
+.movie-three {
+  flex-wrap: wrap;
+  position: relative;
+  left: 30%;
+} 
+ 
+/* .favorite-movies >li {
+  position: relative;
+  margin-left: 150px;
+  display: flex;
+  justify-content: column;
+  justify-content: flex-start;
+
+}  */
